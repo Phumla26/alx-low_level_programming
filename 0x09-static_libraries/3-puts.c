@@ -1,13 +1,29 @@
 #include "main.h"
-void _puts(char *str);
-#include<stdio.h>
+
 /**
- * main - Entry point
+ * _puts - prints a string to stdout
+ * @str: pointer to the string to be printed
  *
- * Return: Always 0 (Success)
+ * Return: void
  */
-int main(void)
+void _puts(char *str)
 {
-	puts("\"Programming is like building a multilingual puzzle");
-	return (0);
+	int i = 0;
+
+	while (str[i] != '\0')
+	{
+		_putchar(str[i]);
+		i++;
+	}
+}
+
+/**
+ * _putchar - writes a character to stdout
+ * @c: the character to be written
+ *
+ * Return: On success, return the character written. On error, return -1.
+ */
+int _putchar(char c)
+{
+    /* Your implementation to write a character to stdout goes here */
 }
