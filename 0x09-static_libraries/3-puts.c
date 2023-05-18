@@ -25,5 +25,8 @@ void _puts(char *str)
  */
 int _putchar(char c)
 {
-    /* Your implementation to write a character to stdout goes here */
+    // Implement the function logic here
+    // Use the 'c' parameter if needed
+
+    return 0; // Add a return statement at the end
 }
