@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * _puts - prints a string to stdout
@@ -8,25 +9,18 @@
  */
 void _puts(char *str)
 {
-	int i = 0;
-	
-	while (str[i] != '\0')
-	{
-		_putchar(str[i]);
-		i++;
-	}
+    /**
+     * Function implementation goes here
+     */
 }
 
 /**
- * _putchar - writes a character to stdout
- * @c: the character to be written
+ * main - Entry point
  *
- * Return: On success, return the character written. On error, return -1.
+ * Return: Always 0 (Success)
  */
-int _putchar(char c)
+int main(void)
 {
-    // Implement the function logic here
-    // Use the 'c' parameter if needed
-
-    return 0; // Add a return statement at the end
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
